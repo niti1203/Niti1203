@@ -125,12 +125,12 @@ A Full Stack E-Commerce platform focused on scalable backend systems and modern 
 </p>
 
 ---
-
 ## 🐍 Contribution Snake
 
 <p align="center">
-<img src="https://github.com/niti12/niti12/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/niti12/niti12/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </p>
+
 
 ---
 
