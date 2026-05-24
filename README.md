@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Nitika</h1>
 
 <h3 align="center">
-🚀 Full Stack Developer | Open Source Contributor | Building Real-World Tech Projects
+🚀 Full Stack Developer | Open Source Contributor | Backend Enthusiast
 </h3>
 
 <p align="center">
@@ -11,8 +11,8 @@ Currently focused on Full Stack Development, Backend Engineering, DSA, and Open 
 
 ---
 
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=niti12&label=Profile%20Views&color=0e75b6&style=flat" alt="niti12" />
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Niti1203&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
 </p>
 
 ---
@@ -59,17 +59,6 @@ A Full Stack E-Commerce platform focused on scalable backend systems and modern 
 
 ---
 
-### 💡 Areas of Interest
-
-- Full Stack Web Development
-- Backend Engineering
-- Open Source Contributions
-- Startup & Product Development
-- AI-powered Applications
-- Scalable Software Systems
-
----
-
 ## 🌟 Open Source Journey
 
 - Contributing to real-world GitHub repositories
@@ -97,7 +86,7 @@ A Full Stack E-Commerce platform focused on scalable backend systems and modern 
 ## 📈 LeetCode Progress
 
 <p align="center">
-<img src="https://leetcard.jacoblin.cool/whytiskolaveri12?theme=light&font=baloo&ext=contest" />
+  <img src="https://leetcard.jacoblin.cool/whytiskolaveri12?theme=light&font=baloo&ext=contest" />
 </p>
 
 ---
@@ -105,15 +94,15 @@ A Full Stack E-Commerce platform focused on scalable backend systems and modern 
 ## 📊 GitHub Stats
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=niti12&show_icons=true&theme=default" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Niti1203&show_icons=true&theme=tokyonight" />
 </p>
 
 <p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=niti12" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Niti1203&theme=tokyonight" />
 </p>
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=niti12&layout=compact" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Niti1203&layout=compact&theme=tokyonight" />
 </p>
 
 ---
@@ -121,23 +110,70 @@ A Full Stack E-Commerce platform focused on scalable backend systems and modern 
 ## 🏅 GitHub Trophies
 
 <p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=niti12" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Niti1203&theme=radical&row=2&column=4&margin-w=15&margin-h=15&no-frame=true" />
 </p>
 
 ---
+
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/niti12/niti12/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/Niti1203/Niti1203/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </p>
 
+---
+
+## ⚙️ Snake Animation Setup
+
+Create this file:
+
+### `.github/workflows/snake.yml`
+
+```yaml
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Generate snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Niti1203
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push snake animation to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
 
 ---
 
 ## 📫 Connect With Me
 
 - 📧 Email: **nitiwork90@gmail.com**
-- 💼 LinkedIn: www.linkedin.com/in/nitika-0245b6251
+- 💼 LinkedIn: https://www.linkedin.com/in/nitika-0245b6251/
 - 🧠 LeetCode: https://leetcode.com/u/whytiskolaveri12/
 - 📸 Instagram: https://instagram.com/whytiskolaveri
 
@@ -145,7 +181,7 @@ A Full Stack E-Commerce platform focused on scalable backend systems and modern 
 
 ## ⚡ Fun Fact
 
-I enjoy turning ambitious ideas into real projects and constantly pushing myself to learn new technologies and improve every day.
+I enjoy turning ambitious ideas into real projects and constantly pushing myself to learn new technologies and improve every single day.
 
 ---
 
